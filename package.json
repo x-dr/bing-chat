@@ -1,0 +1,32 @@
+{
+  "name": "bing-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-dr/bing-chat.git"
+  },
+  "keywords": [
+    "bing-chat"
+  ],
+  "author": "x-dr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x-dr/bing-chat/issues"
+  },
+  "homepage": "https://github.com/x-dr/bing-chat#readme",
+  "dependencies": {
+    "bing-chat": "^0.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
